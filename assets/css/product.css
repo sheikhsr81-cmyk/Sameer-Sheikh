@@ -1,0 +1,160 @@
+/* Product Page start */
+marquee{
+  background-color: gold;
+  color: black;
+  font-weight: 500;
+  padding: 6px ;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background: rgb(7, 7, 7);
+  color: white;
+}
+.navbar {
+  border-bottom: 1px solid rgba(106, 103, 103, 0.3);
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(6px);
+}
+
+.navbar .nav-link {
+  color: white;
+  font-weight: 600;
+}
+
+.navbar .nav-link.active {
+  color: #e69122 !important;
+  border-bottom: 2px solid #e69122;
+}
+.hero {
+  height: 300px;
+  overflow: hidden;
+}
+
+.hero-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.sidebar {
+  top: 120px;   
+}
+
+.category-list li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.category-list a {
+  text-decoration: none;
+  color: white;
+
+  
+}
+
+.category-list a:hover {
+   color: gold;
+}
+
+.category-list a.active {
+  color: gold;
+  font-weight: 900px;
+}
+.art-card {
+  background: #111;
+  border: 6px solid gold;
+  transition: transform 0.3s;
+}
+
+.art-card:hover {
+  transform: translateY(-6px);
+}
+
+.art-card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.art-card h6 {
+  margin-top: 10px;
+}
+
+.art-card p {
+  color: #e69122;
+}
+.badge-sale {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #e69122;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.heading{
+  color: gold;
+}
+.categories-link{
+  color: gold;
+}
+.thumb-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.color-circle {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 8px;
+  border: 1px solid #000;
+}
+
+.quantity-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.quantity-box button {
+  border: none;
+  background: none;
+  padding: 5px 12px;
+  font-size: 18px;
+}
+
+.quantity-box span {
+  padding: 5px 15px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.product-box {
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+.prod-img{
+  border: 8px solid gold;
+}
+/* Product Page end */
